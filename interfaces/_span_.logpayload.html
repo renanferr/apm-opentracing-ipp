@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>&quot;Span&quot; | apm-opentracing-node</title>
+	<title>LogPayload | apm-opentracing-node</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -56,33 +56,95 @@
 					<a href="../globals.html">Globals</a>
 				</li>
 				<li>
-					<a href="_span_.html">&quot;Span&quot;</a>
+					<a href="../modules/_span_.html">&quot;Span&quot;</a>
+				</li>
+				<li>
+					<a href="_span_.logpayload.html">LogPayload</a>
 				</li>
 			</ul>
-			<h1>External module &quot;Span&quot;</h1>
+			<h1>Interface LogPayload</h1>
 		</div>
 	</div>
 </header>
 <div class="container container-main">
 	<div class="row">
 		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<span class="target">LogPayload</span>
+					</li>
+				</ul>
+			</section>
 			<section class="tsd-panel-group tsd-index-group">
 				<h2>Index</h2>
 				<section class="tsd-panel tsd-index-panel">
 					<div class="tsd-index-content">
 						<section class="tsd-index-section ">
-							<h3>Classes</h3>
+							<h3>Properties</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-class tsd-parent-kind-external-module"><a href="../classes/_span_.span.html" class="tsd-kind-icon">Span</a></li>
-							</ul>
-						</section>
-						<section class="tsd-index-section ">
-							<h3>Interfaces</h3>
-							<ul class="tsd-index-list">
-								<li class="tsd-kind-interface tsd-parent-kind-external-module"><a href="../interfaces/_span_.logpayload.html" class="tsd-kind-icon">Log<wbr>Payload</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_span_.logpayload.html#error_kind" class="tsd-kind-icon">error.kind</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_span_.logpayload.html#error_object" class="tsd-kind-icon">error.object</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_span_.logpayload.html#event" class="tsd-kind-icon">event</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_span_.logpayload.html#message" class="tsd-kind-icon">message</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_span_.logpayload.html#stack" class="tsd-kind-icon">stack</a></li>
 							</ul>
 						</section>
 					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="error_kind" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> error.kind</h3>
+					<div class="tsd-signature tsd-kind-icon">error.kind<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/renanferr/apm-opentracing-wrap/blob/4629607/src/Span.ts#L8">Span.ts:8</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="error_object" class="tsd-anchor"></a>
+					<h3>error.object</h3>
+					<div class="tsd-signature tsd-kind-icon">error.object<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Error</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/renanferr/apm-opentracing-wrap/blob/4629607/src/Span.ts#L7">Span.ts:7</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="event" class="tsd-anchor"></a>
+					<h3>event</h3>
+					<div class="tsd-signature tsd-kind-icon">event<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/renanferr/apm-opentracing-wrap/blob/4629607/src/Span.ts#L4">Span.ts:4</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="message" class="tsd-anchor"></a>
+					<h3>message</h3>
+					<div class="tsd-signature tsd-kind-icon">message<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/renanferr/apm-opentracing-wrap/blob/4629607/src/Span.ts#L5">Span.ts:5</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="stack" class="tsd-anchor"></a>
+					<h3>stack</h3>
+					<div class="tsd-signature tsd-kind-icon">stack<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/renanferr/apm-opentracing-wrap/blob/4629607/src/Span.ts#L6">Span.ts:6</a></li>
+						</ul>
+					</aside>
 				</section>
 			</section>
 		</div>
@@ -93,13 +155,13 @@
 						<a href="../globals.html"><em>Globals</em></a>
 					</li>
 					<li class="current tsd-kind-external-module">
-						<a href="_span_.html">"<wbr>Span"</a>
+						<a href="../modules/_span_.html">"<wbr>Span"</a>
 					</li>
 					<li class=" tsd-kind-external-module">
-						<a href="_tracer_.html">"<wbr>Tracer"</a>
+						<a href="../modules/_tracer_.html">"<wbr>Tracer"</a>
 					</li>
 					<li class=" tsd-kind-external-module">
-						<a href="_index_.html">"index"</a>
+						<a href="../modules/_index_.html">"index"</a>
 					</li>
 				</ul>
 			</nav>
@@ -108,9 +170,30 @@
 					<li class=" tsd-kind-class tsd-parent-kind-external-module">
 						<a href="../classes/_span_.span.html" class="tsd-kind-icon">Span</a>
 					</li>
-					<li class=" tsd-kind-interface tsd-parent-kind-external-module">
-						<a href="../interfaces/_span_.logpayload.html" class="tsd-kind-icon">Log<wbr>Payload</a>
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-interface tsd-parent-kind-external-module">
+						<a href="_span_.logpayload.html" class="tsd-kind-icon">Log<wbr>Payload</a>
+						<ul>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="_span_.logpayload.html#error_kind" class="tsd-kind-icon">error.kind</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="_span_.logpayload.html#error_object" class="tsd-kind-icon">error.object</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="_span_.logpayload.html#event" class="tsd-kind-icon">event</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="_span_.logpayload.html#message" class="tsd-kind-icon">message</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="_span_.logpayload.html#stack" class="tsd-kind-icon">stack</a>
+							</li>
+						</ul>
 					</li>
+				</ul>
+				<ul class="after-current">
 				</ul>
 			</nav>
 		</div>
